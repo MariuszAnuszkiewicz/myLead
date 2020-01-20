@@ -1,0 +1,148 @@
+/* alerts form */
+
+.form-alert p {
+    color: red;
+}
+
+/* end alerts forms */
+
+/* search result view */
+
+.find-result {
+    position: relative;
+    top: 5px;
+    padding: 10px 5px 5px 15px;
+    list-style-type: none;
+    width: 97%;
+    height: auto;
+    background-color: #dad5cf;
+    margin-bottom: 10px;
+}
+
+.find-describe {
+    position: relative;
+    top: 5px;
+    padding: 15px 15px 1px 10px;
+    width: 97%;
+    height: auto;
+    background-color: #f1ebec;
+}
+
+.search-container {
+    position: relative;
+    top: 10px;
+    left: 30%;
+    width: 45%;
+    height: 165px;
+    background-color: #c69500;
+}
+
+/* end search result view */
+
+
+.pt-3 {
+    position: relative;
+}
+
+/* products show view */
+
+.details-product {
+    position: relative;
+    top: 5px;
+    padding: 2px 15px 5px 15px;
+    list-style-type: none;
+    width: 100%;
+    height: auto;
+    background-color: #dad5cf;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    position: relative;
+    top: 5px;
+    left: 35%;
+    display: block;
+    background-color: #f4f5f0;
+    width: 200px;
+    height: auto;
+    border: 1px solid yellow;
+}
+
+.price {
+    position: relative;
+    top: 0px;
+    left: 27.5%;
+    display: block;
+    background-color: #3d83dd;
+    width: 85px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.price p {
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.title-price {
+    position: relative;
+    top: 0px;
+    left: 40%;
+    display: block;
+    font-weight: 600;
+}
+
+.images-small{
+    display: block;
+    width: 125px;
+    height: 185px;
+    margin: 12px auto 20px;
+}
+
+/* end products show view */
+
+
+/* user index view */
+
+.images {
+    display: block;
+    width: 155px;
+    height: 235px;
+    margin: 10px auto 20px;
+}
+
+.cell-user-images{
+    position: relative;
+    top: 0px;
+    left: 20%;
+    display: block;
+    width: 185px;
+    height: 265px;
+    padding: 5px 15px 15px 15px;
+}
+
+.cell-user-images img {
+    position: relative;
+    top: -12px;
+}
+
+.cell-user-price {
+    position: absolute;
+    top: 220px;
+    left: 27%;
+    display: block;
+    background-color: #3d83dd;
+    width: 85px;
+    height: 40px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.cell-user-price p{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+}
+
+/* end user index view */
